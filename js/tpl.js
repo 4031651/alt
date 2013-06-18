@@ -1,11 +1,3 @@
-// vars
-/*global alt, testTitle, a, list, sublist, elem, $I, _*/
-// controls
-/*global IF, LET, EACH*/
-//tags
-/*global doctype, html, head, body, title, script, hr, span, ul, li, br*/
-//attrs
-/*global src, type, _style*/
 var _tmpl = alt(function () {
     (doctype, 'html5')
   , (html,
