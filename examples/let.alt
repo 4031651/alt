@@ -1,0 +1,9 @@
+(doctype, 'html5'), 
+(html,
+    (head,
+        (title, 'Let'))
+  , (body
+      , (span, let.a.b)
+      , (LET, let.a, 20, (span, let.a))
+      , (span, let.a.b)
+))

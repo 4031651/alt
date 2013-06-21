@@ -1,0 +1,23 @@
+(doctype, 'html5'),
+(html,
+    (head,
+        (title, 'List'))
+  , (body
+      , (ul, (EACH, list.persons, elem,
+            (li, elem + ' ' + $I)) // End of each
+        )
+      , (hr)
+      // nested loop
+      , (EACH, list.persons, sublist,
+          (LET, _, $I,
+              (hr),
+              (ul, (EACH, sublist, elem,
+                  (li, (id, 'person-' + elem.id)
+                    , ($I + _ * sublist.length)
+                    , (span, (class, 'name'), elem.name)
+                    , (span, (class, 'last-name'), elem.lastName)
+                    , (span, (class, 'id'), elem.id)
+                  ))) // End of 2-nd each
+          ) // End of let
+        ) // End of 1-st each
+))
