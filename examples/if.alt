@@ -1,0 +1,11 @@
+(doctype, 'html5'),
+(html,
+    (head,
+        (title, 'If'))
+  , (body
+      , (IF, IF.a == 5,
+            'IF.a == 5', 'IF.a != 5')
+      , (br)
+      , (IF, IF.a == 6,
+            'IF.a == 6', 'IF.a != 6')
+))

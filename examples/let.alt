@@ -3,7 +3,7 @@
     (head,
         (title, 'Let'))
   , (body
-      , (span, let.a.b)
-      , (LET, let.a, 20, (span, let.a))
-      , (span, let.a.b)
+      , (span, a.b)
+      , (LET, a, 20, (span, a))
+      , (span, a.b)
 ))

@@ -1,0 +1,16 @@
+{
+    "name": "alt"
+  , "version": "0.0.1"
+  , "author": "Sergey Tsapenko <4031651@gmail.com>"
+  , "description": "Almost Lisp Templating."
+  , "dependencies": {}
+  , "keywords": [
+        "templating"
+      , "lisp"
+      , "express"
+  ]
+  , "main": "index"
+  , "repository": "git://github.com/4031651/alt"
+  , "engines": { "node": "*" }
+}
+ 
