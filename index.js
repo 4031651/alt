@@ -29,8 +29,7 @@ function renderFile(path, options, fn) {
         }
     } else {
         read(path, function (tpl) {
-            cache[key] = tpl;
-            fn(null, cache[key].render(options));
+            fn(null, tpl.render(options));
         });
     }
 }
