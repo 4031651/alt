@@ -1,0 +1,6 @@
+(INHERIT, ''),
+
+(BLOCK, main
+  , (PARENT)
+  , (div, 'FROM PARENT'))
+

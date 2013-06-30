@@ -1,0 +1,14 @@
+(BLOCK, main
+  , (LET, a, 6
+      , (span, b)
+      , (IF, a == 5,
+            'a == 5', 'a != 5')
+      , (br)
+      , (IF, a == 6,
+            'a == 6', 'a != 6'))),
+
+(doctype, 'html5'),
+(html,
+    (head,
+        (title, 'If'))
+  , (body, main))
